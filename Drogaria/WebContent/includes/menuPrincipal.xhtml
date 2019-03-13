@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+	
+	<h:outputStylesheet library="css" name="estilos.css"/>
+
+	<h:form>
+		<div class="menuBar" style="background-color: #ccc;">
+			<label>Arquivo</label>
+			<select name="menuArq" size="1" onchange="">
+				<option value="">Arquivo</option>
+			</select>
+			
+			<label>Cadastros</label>
+			<select name="menuCad" size="1" onchange="">
+				<option value="">Fabricantes</option>
+				<option value="">Produtos</option>	
+			</select>
+			
+			<label>Ajuda</label>
+			<select name="menuAju" size="1" onchange="">
+				<option value="">Sobre</option>
+			</select>
+		</div>
+	</h:form>
+</ui:composition>

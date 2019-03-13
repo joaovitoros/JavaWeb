@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+
+.menu{
+	background-color: #ddd;
+	border: 10px solid #ddd;
+}
+
+.lkmenu{
+	color: #55f;
+}
